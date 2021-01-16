@@ -1,0 +1,198 @@
+.coffee-section {
+	display: flex;
+	justify-content: center;
+	background-color: #359fa2;
+	padding-top: 5rem;
+}
+
+.coffee-header img {
+	width: 300px;
+	height: 300px;
+	color: white;
+}
+
+.coffee-header {
+	display: flex;
+	height: 30vh;
+	align-items: center;
+	max-width: 800px;
+	color: white;
+	line-height: 1.6;
+	gap: 2rem;
+}
+
+.coffee-products-section {
+	padding: 2.5rem 0;
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+}
+
+.side-bar {
+	border: 1px solid black;
+	border-radius: 0.5rem;
+	background-color: #359fa2;
+	padding: 2rem;
+	width: 15%;
+	height: 800px;
+}
+
+.side-bar a {
+	text-decoration: none;
+	color: white;
+}
+
+.side-bar ul {
+	list-style: none;
+}
+
+.side-bar ul a:first-child li {
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.side-bar ul a:last-child li {
+	margin-bottom: 1rem;
+}
+
+.side-bar ul a li {
+	padding: 1rem;
+}
+
+.bt {
+	border-top: 1px solid #ddd;
+}
+
+.inactive {
+	color: #333;
+	padding: 1rem;
+}
+
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(200px, 1fr));
+	gap: 1.5rem;
+	width: 50%;
+}
+
+.featured-product.coffee-products {
+	margin: 0;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+.coffee-detail-section {
+	padding: 10rem 13rem;
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.main-left {
+	max-width: 500px;
+}
+
+.main-right {
+	max-width: 525px;
+}
+
+.main-left img {
+	width: 100%;
+}
+
+.product-information.side-bar {
+	width: auto;
+	height: auto;
+	color: white;
+	line-height: 1.6;
+	border: 1px solid #ddd;
+	margin-top: 3rem;
+}
+
+.product-information-title,
+.product-description h1 {
+	text-transform: uppercase;
+	max-width: 80%;
+	text-align: center;
+	letter-spacing: 8px;
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+.product-information-info-section {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.product-information-category {
+	display: flex;
+	padding: 0 2rem;
+	margin-bottom: 1rem;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.product-information-category-name p {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.main-right {
+	padding: 4rem;
+	box-shadow: 0 0 8px 0 #ddd;
+}
+
+.product-description h1 {
+	color: #359fa2;
+	font-weight: 700;
+	letter-spacing: 6px;
+	margin: 0;
+	text-align: left;
+	line-height: 1.6;
+	font-size: 1.8rem;
+}
+
+.product-description p {
+	line-height: 1.6;
+	font-size: 1.2rem;
+	color: rgb(92, 88, 88);
+	margin-bottom: 1rem;
+}
+
+.product-purchase label {
+	color: #359fa2;
+	font-weight: bold;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+}
+
+.product-purchase label::after {
+	content: "Required";
+	color: rgb(146, 141, 141);
+	font-size: 0.75rem;
+	text-transform: none;
+	font-weight: normal;
+	margin-left: 0.5rem;
+}
+
+.product-purchase select,
+.product-purchase input {
+	width: 80%;
+	border: 1px solid #ddd;
+	outline: none;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 0.3rem;
+}
+
+.product-purchase .price {
+	margin: 3rem 0;
+	font-size: 2rem;
+	color: #333;
+}
